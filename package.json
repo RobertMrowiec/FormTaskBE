@@ -26,6 +26,6 @@
     "express": "^4.16.3",
     "mocha": "^5.2.0",
     "mongoose": "^5.2.3",
-    "surprise-cors": "^1.1.0",
+    "surprise-cors": "^1.1.0"
   }
 }
