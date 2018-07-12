@@ -4,8 +4,11 @@ const validator = require("email-validator");
 exports.get = defaultResponse(req => Events.find().exec());
 
 exports.post = defaultResponse(async req => {
-  if (!validateBody(req.body)) throw ('Wrong request body');
-  return new Events(req.body).save();
+  if (!validateBody(req.body)) throw ('Incorrect form data');
+  return {
+    message: 'Saved successfully',
+    saved: await new Events(req.body).save()
+  };
 });
 
 function defaultResponse (func) {
