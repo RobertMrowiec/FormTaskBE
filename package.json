@@ -2,9 +2,9 @@
   "name": "formtaskbe",
   "version": "1.0.0",
   "description": "Node.js back-end for Event Application ",
-  "main": "eventApp.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node eventApp.js",
+    "start": "node app.js",
     "testMac": "mocha $(find . -name '*.test.js' ! -ipath '*node_modules*')",
     "testWin": "mocha"
   },
