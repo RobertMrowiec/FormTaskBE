@@ -2,7 +2,6 @@ const bodyParser = require('body-parser');
 const dbUrl = 'mongodb://localhost/eventApp';
 const express = require('express');
 const mongoose = require('mongoose');
-const swaggerUi = require('swagger-ui-express');
 
 const app = express();
 const router = express.Router();

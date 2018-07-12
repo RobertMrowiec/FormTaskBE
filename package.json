@@ -27,6 +27,5 @@
     "mocha": "^5.2.0",
     "mongoose": "^5.2.3",
     "surprise-cors": "^1.1.0",
-    "swagger-ui-express": "^3.0.10"
   }
 }
