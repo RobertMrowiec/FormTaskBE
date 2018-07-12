@@ -1,5 +1,5 @@
-const validator = require("email-validator");
 const Events = require('../../models/event');
+const validator = require("email-validator");
 
 exports.get = defaultResponse(req => Events.find().exec());
 
@@ -21,5 +21,5 @@ function defaultResponse (func) {
 }
 
 function validateBody (body) {
-  return (body.firstName.length > 2 && body.lastName.length > 2 && validator.validate(body.email))
+  return (Object.keys(body).length === 4 && body.firstName.length > 2 && body.lastName.length > 2 && validator.validate(body.email))
 }
