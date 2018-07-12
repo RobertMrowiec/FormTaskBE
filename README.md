@@ -7,4 +7,4 @@ After downloading a repository, please use ``yarn install`` command in terminal 
 
 Application is running on port 8030
 
-For tests please use ``npm run testMac`` or ``npm run testWin`` (based on OS)
+For tests please use ``yarn run testMac`` or ``yarn run testWin`` (based on OS)
