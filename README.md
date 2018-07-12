@@ -3,7 +3,7 @@ This is Back-end side of FormTask, created in Node.js with Express framework and
 
 # Installation
 
-After downloading a repository, please use ``yarn install`` command in terminal to download neccessary node modules, and ``yarn start`` for run an application.
+After downloading a repository, please use ``yarn install`` command in terminal to download neccessary node modules, and ``yarn run start`` for run an application.
 
 Application is running on port 8030
 
