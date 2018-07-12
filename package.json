@@ -1,0 +1,29 @@
+{
+  "name": "formtaskbe",
+  "version": "1.0.0",
+  "description": "Node.js back-end for Event Application ",
+  "main": "eventApp.js",
+  "scripts": {
+    "start": "node eventApp.js",
+    "testMac": "mocha $(find . -name '*.test.js' ! -ipath '*node_modules*')",
+    "testWin": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/black09bb/FormTaskBE.git"
+  },
+  "author": "Robert Mrowiec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/black09bb/FormTaskBE/issues"
+  },
+  "homepage": "https://github.com/black09bb/FormTaskBE#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.3",
+    "surprise-cors": "^1.1.0",
+    "swagger-ui-express": "^3.0.10"
+  }
+}
